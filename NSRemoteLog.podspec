@@ -7,7 +7,7 @@ Pod::Spec.new do |s|
   s.author   = { 'Giordano Scalzo' => 'giordano.scalzo@gmail.com' }
   #s.source   = { :git => 'https://gscalzo/NSRemoteLog/NSRemoteLog.git', :tag => '0.0.1' }
   s.source   = { :git => 'https://gscalzo/NSRemoteLog/NSRemoteLog.git'  }
-  s.source_files = 'NSRemoteLog'
+  s.source_files = 'NSRemoteLog/*.{h,m}'
   s.platform = :ios
   s.requires_arc = true
   s.dependency 'AFNetworking', '~>0.9.2'
