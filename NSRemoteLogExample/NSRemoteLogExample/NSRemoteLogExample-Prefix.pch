@@ -1,0 +1,16 @@
+//
+// Prefix header for all source files of the 'NSRemoteLogExample' target in the 'NSRemoteLogExample' project
+//
+
+#import <Availability.h>
+
+#ifndef __IPHONE_4_0
+#warning "This project uses features only available in iOS SDK 4.0 and later."
+#endif
+
+#ifdef __OBJC__
+    #import <UIKit/UIKit.h>
+    #import <Foundation/Foundation.h>
+    #import "NSRemoteLog.h"
+    #define NSLog(__FORMAT__, ...) [NSRemoteLog log:[NSString stringWithFormat:__FORMAT__, ##__VA_ARGS__] serverUrl:@"http://hollow-galaxy-7080.herokuapp.com/"]
+#endif

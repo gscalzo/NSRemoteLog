@@ -1,0 +1,322 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8D3A1BC415A1EB3100EADAE8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D3A1BC315A1EB3100EADAE8 /* UIKit.framework */; };
+		8D3A1BC615A1EB3100EADAE8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D3A1BC515A1EB3100EADAE8 /* Foundation.framework */; };
+		8D3A1BC815A1EB3100EADAE8 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D3A1BC715A1EB3100EADAE8 /* CoreGraphics.framework */; };
+		8D3A1BCE15A1EB3100EADAE8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8D3A1BCC15A1EB3100EADAE8 /* InfoPlist.strings */; };
+		8D3A1BD015A1EB3100EADAE8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D3A1BCF15A1EB3100EADAE8 /* main.m */; };
+		8D3A1BD415A1EB3100EADAE8 /* PPAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D3A1BD315A1EB3100EADAE8 /* PPAppDelegate.m */; };
+		8D3A1BD715A1EB3100EADAE8 /* PPViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D3A1BD615A1EB3100EADAE8 /* PPViewController.m */; };
+		8D3A1BDA15A1EB3100EADAE8 /* PPViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8D3A1BD815A1EB3100EADAE8 /* PPViewController.xib */; };
+		8D3A1BF615A1F37900EADAE8 /* libNSRemoteLog.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D3A1BF515A1F37900EADAE8 /* libNSRemoteLog.a */; };
+		99F1419C5E94486794F362C3 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D52F82FEF40D4DD2A1371EE2 /* libPods.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8D3A1BBF15A1EB3100EADAE8 /* NSRemoteLogExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NSRemoteLogExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D3A1BC315A1EB3100EADAE8 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		8D3A1BC515A1EB3100EADAE8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		8D3A1BC715A1EB3100EADAE8 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		8D3A1BCB15A1EB3100EADAE8 /* NSRemoteLogExample-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NSRemoteLogExample-Info.plist"; sourceTree = "<group>"; };
+		8D3A1BCD15A1EB3100EADAE8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8D3A1BCF15A1EB3100EADAE8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8D3A1BD115A1EB3100EADAE8 /* NSRemoteLogExample-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSRemoteLogExample-Prefix.pch"; sourceTree = "<group>"; };
+		8D3A1BD215A1EB3100EADAE8 /* PPAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PPAppDelegate.h; sourceTree = "<group>"; };
+		8D3A1BD315A1EB3100EADAE8 /* PPAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PPAppDelegate.m; sourceTree = "<group>"; };
+		8D3A1BD515A1EB3100EADAE8 /* PPViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PPViewController.h; sourceTree = "<group>"; };
+		8D3A1BD615A1EB3100EADAE8 /* PPViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PPViewController.m; sourceTree = "<group>"; };
+		8D3A1BD915A1EB3100EADAE8 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/PPViewController.xib; sourceTree = "<group>"; };
+		8D3A1BF515A1F37900EADAE8 /* libNSRemoteLog.a */ = {isa = PBXFileReference; lastKnownFileType = file; name = libNSRemoteLog.a; path = "../NSRemoteLog/build/Release-iphoneos/libNSRemoteLog.a"; sourceTree = "<group>"; };
+		AE05E37B4C364CD18D8422FA /* Pods.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = SOURCE_ROOT; };
+		D52F82FEF40D4DD2A1371EE2 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8D3A1BBC15A1EB3100EADAE8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D3A1BF615A1F37900EADAE8 /* libNSRemoteLog.a in Frameworks */,
+				8D3A1BC415A1EB3100EADAE8 /* UIKit.framework in Frameworks */,
+				8D3A1BC615A1EB3100EADAE8 /* Foundation.framework in Frameworks */,
+				8D3A1BC815A1EB3100EADAE8 /* CoreGraphics.framework in Frameworks */,
+				99F1419C5E94486794F362C3 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8D3A1BB415A1EB3100EADAE8 = {
+			isa = PBXGroup;
+			children = (
+				8D3A1BF515A1F37900EADAE8 /* libNSRemoteLog.a */,
+				8D3A1BC915A1EB3100EADAE8 /* NSRemoteLogExample */,
+				8D3A1BC215A1EB3100EADAE8 /* Frameworks */,
+				8D3A1BC015A1EB3100EADAE8 /* Products */,
+				AE05E37B4C364CD18D8422FA /* Pods.xcconfig */,
+			);
+			sourceTree = "<group>";
+		};
+		8D3A1BC015A1EB3100EADAE8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D3A1BBF15A1EB3100EADAE8 /* NSRemoteLogExample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8D3A1BC215A1EB3100EADAE8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8D3A1BC315A1EB3100EADAE8 /* UIKit.framework */,
+				8D3A1BC515A1EB3100EADAE8 /* Foundation.framework */,
+				8D3A1BC715A1EB3100EADAE8 /* CoreGraphics.framework */,
+				D52F82FEF40D4DD2A1371EE2 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8D3A1BC915A1EB3100EADAE8 /* NSRemoteLogExample */ = {
+			isa = PBXGroup;
+			children = (
+				8D3A1BD215A1EB3100EADAE8 /* PPAppDelegate.h */,
+				8D3A1BD315A1EB3100EADAE8 /* PPAppDelegate.m */,
+				8D3A1BD515A1EB3100EADAE8 /* PPViewController.h */,
+				8D3A1BD615A1EB3100EADAE8 /* PPViewController.m */,
+				8D3A1BD815A1EB3100EADAE8 /* PPViewController.xib */,
+				8D3A1BCA15A1EB3100EADAE8 /* Supporting Files */,
+			);
+			path = NSRemoteLogExample;
+			sourceTree = "<group>";
+		};
+		8D3A1BCA15A1EB3100EADAE8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8D3A1BCB15A1EB3100EADAE8 /* NSRemoteLogExample-Info.plist */,
+				8D3A1BCC15A1EB3100EADAE8 /* InfoPlist.strings */,
+				8D3A1BCF15A1EB3100EADAE8 /* main.m */,
+				8D3A1BD115A1EB3100EADAE8 /* NSRemoteLogExample-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8D3A1BBE15A1EB3100EADAE8 /* NSRemoteLogExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8D3A1BDD15A1EB3100EADAE8 /* Build configuration list for PBXNativeTarget "NSRemoteLogExample" */;
+			buildPhases = (
+				8D3A1BBB15A1EB3100EADAE8 /* Sources */,
+				8D3A1BBC15A1EB3100EADAE8 /* Frameworks */,
+				8D3A1BBD15A1EB3100EADAE8 /* Resources */,
+				29C242B2045C4D24B082B9ED /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NSRemoteLogExample;
+			productName = NSRemoteLogExample;
+			productReference = 8D3A1BBF15A1EB3100EADAE8 /* NSRemoteLogExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8D3A1BB615A1EB3100EADAE8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = PP;
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = "+plugg";
+			};
+			buildConfigurationList = 8D3A1BB915A1EB3100EADAE8 /* Build configuration list for PBXProject "NSRemoteLogExample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 8D3A1BB415A1EB3100EADAE8;
+			productRefGroup = 8D3A1BC015A1EB3100EADAE8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8D3A1BBE15A1EB3100EADAE8 /* NSRemoteLogExample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D3A1BBD15A1EB3100EADAE8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D3A1BCE15A1EB3100EADAE8 /* InfoPlist.strings in Resources */,
+				8D3A1BDA15A1EB3100EADAE8 /* PPViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		29C242B2045C4D24B082B9ED /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8D3A1BBB15A1EB3100EADAE8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D3A1BD015A1EB3100EADAE8 /* main.m in Sources */,
+				8D3A1BD415A1EB3100EADAE8 /* PPAppDelegate.m in Sources */,
+				8D3A1BD715A1EB3100EADAE8 /* PPViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8D3A1BCC15A1EB3100EADAE8 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8D3A1BCD15A1EB3100EADAE8 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		8D3A1BD815A1EB3100EADAE8 /* PPViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8D3A1BD915A1EB3100EADAE8 /* en */,
+			);
+			name = PPViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8D3A1BDB15A1EB3100EADAE8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		8D3A1BDC15A1EB3100EADAE8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8D3A1BDE15A1EB3100EADAE8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AE05E37B4C364CD18D8422FA /* Pods.xcconfig */;
+			buildSettings = {
+				DSTROOT = /tmp/xcodeproj.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NSRemoteLogExample/NSRemoteLogExample-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INFOPLIST_FILE = "NSRemoteLogExample/NSRemoteLogExample-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				USER_HEADER_SEARCH_PATHS = "../**";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		8D3A1BDF15A1EB3100EADAE8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AE05E37B4C364CD18D8422FA /* Pods.xcconfig */;
+			buildSettings = {
+				DSTROOT = /tmp/xcodeproj.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NSRemoteLogExample/NSRemoteLogExample-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INFOPLIST_FILE = "NSRemoteLogExample/NSRemoteLogExample-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				USER_HEADER_SEARCH_PATHS = "../**";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8D3A1BB915A1EB3100EADAE8 /* Build configuration list for PBXProject "NSRemoteLogExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8D3A1BDB15A1EB3100EADAE8 /* Debug */,
+				8D3A1BDC15A1EB3100EADAE8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8D3A1BDD15A1EB3100EADAE8 /* Build configuration list for PBXNativeTarget "NSRemoteLogExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8D3A1BDE15A1EB3100EADAE8 /* Debug */,
+				8D3A1BDF15A1EB3100EADAE8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8D3A1BB615A1EB3100EADAE8 /* Project object */;
+}
