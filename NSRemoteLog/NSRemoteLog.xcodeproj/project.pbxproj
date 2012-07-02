@@ -8,15 +8,17 @@
 
 /* Begin PBXBuildFile section */
 		8D3A1BA815A1EB0400EADAE8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D3A1BA715A1EB0400EADAE8 /* Foundation.framework */; };
-		8D3A1BAE15A1EB0400EADAE8 /* NSRemoteLog.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D3A1BAD15A1EB0400EADAE8 /* NSRemoteLog.m */; };
+		8D3A1C5A15A2067600EADAE8 /* NSRemoteLog.h in Headers */ = {isa = PBXBuildFile; fileRef = 8D3A1C5815A2067600EADAE8 /* NSRemoteLog.h */; };
+		8D3A1C5B15A2067600EADAE8 /* NSRemoteLog.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D3A1C5915A2067600EADAE8 /* NSRemoteLog.m */; };
+		8D3A1C5D15A2067F00EADAE8 /* NSRemoteLog-Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = 8D3A1C5C15A2067F00EADAE8 /* NSRemoteLog-Prefix.pch */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		8D3A1BA415A1EB0400EADAE8 /* libNSRemoteLog.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libNSRemoteLog.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D3A1BA715A1EB0400EADAE8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		8D3A1BAB15A1EB0400EADAE8 /* NSRemoteLog-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSRemoteLog-Prefix.pch"; sourceTree = "<group>"; };
-		8D3A1BAC15A1EB0400EADAE8 /* NSRemoteLog.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NSRemoteLog.h; sourceTree = "<group>"; };
-		8D3A1BAD15A1EB0400EADAE8 /* NSRemoteLog.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSRemoteLog.m; sourceTree = "<group>"; };
+		8D3A1C5815A2067600EADAE8 /* NSRemoteLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSRemoteLog.h; sourceTree = SOURCE_ROOT; };
+		8D3A1C5915A2067600EADAE8 /* NSRemoteLog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSRemoteLog.m; sourceTree = SOURCE_ROOT; };
+		8D3A1C5C15A2067F00EADAE8 /* NSRemoteLog-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSRemoteLog-Prefix.pch"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,8 +61,8 @@
 		8D3A1BA915A1EB0400EADAE8 /* NSRemoteLog */ = {
 			isa = PBXGroup;
 			children = (
-				8D3A1BAC15A1EB0400EADAE8 /* NSRemoteLog.h */,
-				8D3A1BAD15A1EB0400EADAE8 /* NSRemoteLog.m */,
+				8D3A1C5815A2067600EADAE8 /* NSRemoteLog.h */,
+				8D3A1C5915A2067600EADAE8 /* NSRemoteLog.m */,
 				8D3A1BAA15A1EB0400EADAE8 /* Supporting Files */,
 			);
 			path = NSRemoteLog;
@@ -69,7 +71,7 @@
 		8D3A1BAA15A1EB0400EADAE8 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				8D3A1BAB15A1EB0400EADAE8 /* NSRemoteLog-Prefix.pch */,
+				8D3A1C5C15A2067F00EADAE8 /* NSRemoteLog-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -81,6 +83,8 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8D3A1C5A15A2067600EADAE8 /* NSRemoteLog.h in Headers */,
+				8D3A1C5D15A2067F00EADAE8 /* NSRemoteLog-Prefix.pch in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -135,7 +139,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8D3A1BAE15A1EB0400EADAE8 /* NSRemoteLog.m in Sources */,
+				8D3A1C5B15A2067600EADAE8 /* NSRemoteLog.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -189,7 +193,7 @@
 			buildSettings = {
 				DSTROOT = /tmp/NSRemoteLog.dst;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "NSRemoteLog/NSRemoteLog-Prefix.pch";
+				GCC_PREFIX_HEADER = "NSRemoteLog-Prefix.pch";
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
@@ -202,7 +206,7 @@
 			buildSettings = {
 				DSTROOT = /tmp/NSRemoteLog.dst;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "NSRemoteLog/NSRemoteLog-Prefix.pch";
+				GCC_PREFIX_HEADER = "NSRemoteLog-Prefix.pch";
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
